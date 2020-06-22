@@ -27,7 +27,7 @@ app.get('', (req,res)=> {
 })
 
 app.get('/about', (req,res)=> {
-    res.render('about',{title:"About me", name:"Tanya F"});
+    res.render('about',{title:"About", name:"Tanya F"});
 })
 
 app.get('/help', (req,res)=> {
